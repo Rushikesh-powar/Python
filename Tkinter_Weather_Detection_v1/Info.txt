@@ -1,0 +1,29 @@
+1. Here we will use the tkinter library for building the GUI application.
+   This library is inbuilt in python.
+
+2. For this we will require to build the initial window or the 'root window' and this window will terminate
+   at the end of the code, anything between these will be displayed to the screen.
+
+3. Then you can directly start to put the widgets(labels, buttons, text fields, etc) into the root frame.
+   but the only thing is that you should reference root window to every item, otherwise it will not be
+   displayed. Then you should 'pack' that item onto the frame.
+
+4. The only precaution is that when you start by default the window is not resized(if root).
+
+5. So to over come you can use the 'Canvas', which can be predefined by some initial height and width.
+   so when the window is started it is not too small.
+
+6. The next thing you can add to the GUI window is 'Frame', which is resizable and can have user defined
+   colors, as well as dimensions. You can also reference your widgets to this 'Frame' and not the root.
+
+7. The widgets can be created just as a new variable. These widgets can be assigned with text,
+   background and foreground color, with their position in the frame etc.
+
+8. These widgets can be placed into the frame with functions like pack(), grid(), place().
+   The most preferable is place() as it more flexible and resizable according to the user.
+
+9. You can also add background images with 'PhotoImages()' in tkinter and giving its path in the function.
+
+10. Here an opensource API has been used for displaying the weather of an particular city.
+    This API takes the city name from the widget(textbox) and then send it through the request module 
+    to the API server and display the weather to the Label(display).
