@@ -4,8 +4,6 @@ import requests
 
 H = 500  # these are the dimensions for the the canvas of the window.
 W = 700
-# http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID={APIKEY}
-# key = eb31119ff4126c9de2255655aeb5bb7c
 
 
 def test(entry):
@@ -13,8 +11,8 @@ def test(entry):
 
 
 def get_weather(city):
-	weather_key = 'eb31119ff4126c9de2255655aeb5bb7c'
-	url = 'https://api.openweathermap.org/data/2.5/weather'
+	weather_key = ' '  # put your API key for accessing your accout on OpenWeatherAPI.
+	url = ' '  # put the url link of the API which your app is gonig to use.
 	para = {
 		'APPID': weather_key,
 		'q': city,
