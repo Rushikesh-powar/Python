@@ -1,0 +1,16 @@
+1. This project i have used the tkinter library for the GUI application by using
+   "import tkinter as tk" or " from tkinter import * ".
+
+2. Here grid() has been used for the extra features for the column and row space.
+
+3. The only draw back is that it this grid() placement is not dynamic.
+
+4. Then different function have been called when a button is pressed.
+   this is done using the " command= " keyword.
+
+5. Then lambda function is used to insert the digits dynamically.
+
+6. Each operator(+ , - , * , /) has its own function for calculating.
+
+7. to clear the entry(textbox) the " delet() " function, and to add " insert() "
+   functions are used.
