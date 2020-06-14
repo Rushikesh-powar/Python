@@ -1,0 +1,18 @@
+Hello Guy's This is my first (Python)GUI Project.
+
+This project aim's for creating an TextEditor(Ultra Editor) which is capable of
+executing python scorce code, And reading files with extensions such as
+.txt, .csv, .py, .cpp, .html, etc
+
+The Ultra Editor Comprises of Functionalities and Features like:
+. Auto-Indent, Auto-Complete
+. Syntax higlighting(currently python specific)
+. Source Code Execution(currently python specific) (Shift + F5)
+. Code Block Execution(selection + F5)
+. Search function(selection + F3)
+. Fullfledged Font Menu.
+. Editior Themes, Drak, Light.
+
+Current Application has some bugs in Number line, Auto-Indente.
+If you wish to improve these bugs please contact at my email or can also contribute with code fix for these bugs.
+Also open for suggestions.
